@@ -41,7 +41,8 @@ export default function TagsMenu() {
               <a
                 href={`/notes/filter/${tag}`}
                 className={css.menuLink}
-                onClick={close}>
+                onClick={close}
+              >
                 {tag}
               </a>
             </li>
